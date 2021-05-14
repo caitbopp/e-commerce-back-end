@@ -5,8 +5,15 @@ const Tag = require('./Tag');
 const ProductTag = require('./ProductTag');
 
 // Products belongsTo Category
-
+Product.belongsTo(Category, {
+  foreignKey: 'category_id',
+  onDelete: 'CASCADE',
+})
 // Categories have many Products
+Category.hasMany(Product, {
+  foreignKey: 'category_id',
+  onDelete: 'CASCADE',
+});
 
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
@@ -29,3 +36,9 @@ module.exports = {
   Tag,
   ProductTag,
 };
+
+
+
+// NOTES:
+// Not sure if I need onDelete: 'CASCADE' for each of the above
+// Not sure if I need foreign key for each of the above as well
