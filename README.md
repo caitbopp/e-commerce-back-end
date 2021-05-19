@@ -17,7 +17,7 @@ npm i
 ## Usage
 Express, MySQL, DOTENV, and Sequelize are required to use the E-commerce Back End.
 
-[Please click here](https://cbopp-express-note-taker.herokuapp.com/) to view a recording of my project.
+[Please click here](https://youtu.be/nhwjz9xSEMQ/) to view a recording of my project.
 
 
 ## License
