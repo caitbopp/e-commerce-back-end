@@ -19,8 +19,6 @@ Express, MySQL, DOTENV, and Sequelize are required to use the E-commerce Back En
 
 [Please click here](https://cbopp-express-note-taker.herokuapp.com/) to view a recording of my project.
 
-<img src="./public/assets/preview-1.png">
-<img src="./public/assets/preview-2.png">
 
 ## License
 This project is licensed under the: none.
